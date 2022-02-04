@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 65px auto;
+    background-color: #ff8b1b;
+    font-family: 'Courier New', Courier, monospace;
+}
+img {
+    width: 110px;
+    height: 110px;
+    background-color: #ffd51b;
+    border-radius: 50%;
+}
+.container {
+    background-color: #fff;
+    width: 45%;
+    position: obsolute;
+    margin: auto;
+    left: 50%;
+    top: 50%;
+   border-radius: 10px;
+   box-shadow: 0 0 15px;
+}
+
+.judul {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 220, 62);
+    padding: 10px;
+}
+/* papan skore */
+.papan-skore {
+    padding-top: 20px;
+    text-align: center;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;     
+}
+.papan-skore p {
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bold;
+}
+.player-skore h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+.computer-skore h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.hasil-match {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.winner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:  auto;
+}
+
+.hands {
+    margin-top: -20px;
+}
+.hands img {
+    margin: 50px;
+}
+
+.option {
+    background-color: rgb(241, 234, 241);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; 
+}
+
+.option p {
+    position: relative;
+    margin-top: -20px;
+    margin-left: 22px;
+    padding: 10px;
+    padding-bottom: 32px;
+    font-weight: 600;
+}
+
+li {
+    display: inline-block;
+}
+
+.option img {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.batu:hover, .gunting:hover, .kertas:hover, .active {
+    box-shadow: 0 0 10px 5px rgb(49, 47, 47);
+}
+
+.batu:active, .gunting:active, .kertas:active {
+    top: 1px;
+}
